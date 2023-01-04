@@ -1,3 +1,4 @@
+package D1;
 import java.util.Scanner;
 
 public class Solution_1936_d1 {
