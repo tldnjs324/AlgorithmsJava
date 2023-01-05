@@ -9,7 +9,7 @@ public class Solution_1974_d2 {
 		//테스트케이스 수 
 		int T = sc.nextInt();
 		
-		for(int tc = 0; tc<T; tc++) {
+		for(int tc = 1; tc<=T; tc++) {
 			int[][] map = new int[9][9];
 			boolean sign = true;
 			//테스트케이스 배열 입력받기
