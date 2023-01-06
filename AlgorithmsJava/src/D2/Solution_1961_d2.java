@@ -5,8 +5,8 @@ public class Solution_1961_d2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int test = sc.nextInt();
-		for(int t = 1; t <= test; t++) {
+		int T = sc.nextInt();
+		for(int tc = 1; tc <= T; tc++) {
 			int n = sc.nextInt();
 			int[][] a = new int[n][n];
 			for(int i = 0; i < n; i++) {
@@ -14,7 +14,7 @@ public class Solution_1961_d2 {
 					a[i][j] = sc.nextInt();
 				}
 			}
-			System.out.println("#" + t + " ");
+			System.out.println("#" + tc + " ");
 			for(int i = 0; i < n; i++) {
 				for(int j = 0; j < n; j++) {
 					System.out.print(a[n-j-1][i]);
