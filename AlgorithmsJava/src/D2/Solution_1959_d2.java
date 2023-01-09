@@ -20,7 +20,7 @@ public class Solution_1959_d2 {
 			for(int i = 0; i<N; i++) {
 				A[i] = sc.nextInt();
 			}
-			for(int i = 0; i<N; i++) {
+			for(int i = 0; i<M; i++) {
 				B[i] = sc.nextInt();
 			}
 			
@@ -48,7 +48,7 @@ public class Solution_1959_d2 {
 					}
 				}
 			}
-			System.out.printf("#%d %d\n", tc, max);
+			System.out.printf("#%d %d\n", tc+1, max);
 			
 		}
 
